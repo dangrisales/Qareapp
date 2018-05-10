@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.danielescobar.qareapp.ClienteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/Nuevo_Cliente"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/eTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Cedula"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eDirecccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Direccion" />
+
+    <EditText
+        android:id="@+id/eNegocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Negocio" />
+
+    <EditText
+        android:id="@+id/eObservacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Observacion" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:onClick="guardarClicked"
+        android:text="Guardar"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

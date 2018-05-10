@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "743191499028",
+    "firebase_url": "https://qareapp.firebaseio.com",
+    "project_id": "qareapp",
+    "storage_bucket": "qareapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743191499028:android:b0309efea48480bf",
+        "android_client_info": {
+          "package_name": "com.danielescobar.qareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743191499028-5qjka506503f7mjsf87pq2dvocjo3tj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danielescobar.qareapp",
+            "certificate_hash": "0fd928ba85c57d3038afe150c6d82a2578cd02a1"
+          }
+        },
+        {
+          "client_id": "743191499028-ojp71v4eelq8fgdn0b4o1mng3nkc1lvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVmUMOOpL5FakQns9qk_AwXDAWJJf0p5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743191499028-ojp71v4eelq8fgdn0b4o1mng3nkc1lvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

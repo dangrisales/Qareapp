@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iCliente_menu_principal"
+            android:icon="@drawable/cliente"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/iProduccion_menu_principal"
+            android:icon="@drawable/produccion"
+            android:title="Produccion" />
+        <item
+            android:id="@+id/iVenta_menu_principal"
+            android:icon="@drawable/venta"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/iCompra_menu_principal"
+            android:icon="@drawable/compra"
+            android:title="Compras" />
+        <item
+            android:id="@+id/iProductos_menu_principal"
+            android:icon="@drawable/mai"
+            android:title="Productos" />
+    </group>
+
+    <item android:title="Seguridad">
+        <menu>
+            <item
+                android:id="@+id/iRuta_menu_principal"
+                android:icon="@drawable/ruta"
+                android:title="Ruta de envio" />
+            <item
+                android:id="@+id/iCamara_manu_principal"
+                android:icon="@drawable/camara"
+                android:title="Camara de Seguridad" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.danielescobar.qareapp.AddProductoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/Nuevo_Producto"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/eCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kilogramo,gramo,bulto,paquete......"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/eDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripcion" />
+
+    <EditText
+        android:id="@+id/ePrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Precio"
+        android:inputType="number" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:onClick="guardarClicked"
+        android:text="Agregar"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
